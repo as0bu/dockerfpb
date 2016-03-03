@@ -10,7 +10,7 @@ This will drop you into the shell to issue the 'fpb' command to build plugins
 from a cloned repository.
 
 ## Example
-    docker run -i -t as0bu/dockerfpb /bin/bash
+    docker run -i -t as0bu/fpb /bin/bash
     (Inside the container)
     cd ~
     git clone https://github.com/openstack/fuel-plugin-lma-collector.git
