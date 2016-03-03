@@ -4,7 +4,7 @@
 This is a docker build used to build Mirantis Fuel Plugins.
 
 ## How to use (Pulls from DockerHub)
-    docker run -i -t as0bu/dockerfpb /bin/bash
+    docker run -i -t as0bu/fpb /bin/bash
 
 This will drop you into the shell to issue the 'fpb' command to build plugins
 from a cloned repository.
