@@ -14,6 +14,6 @@ from a cloned repository.
     (Inside the container)
     cd ~
     git clone https://github.com/openstack/fuel-plugin-lma-collector.git
-    fpb fuel-plugin-lma-collector/
+    fpb --build fuel-plugin-lma-collector/
 
 The resulting file will be in the fuel-plugin-lma-collector directory
