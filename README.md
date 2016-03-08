@@ -1,5 +1,7 @@
 # Fuel Plugin Builder (Dockerized)
 
+[![](https://badge.imagelayers.io/as0bu/fpb:latest.svg)](https://imagelayers.io/?images=as0bu/fpb:latest 'Get your own badge on imagelayers.io')
+
 ## Description
 This is a docker build used to build Mirantis Fuel Plugins.
 
