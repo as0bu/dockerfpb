@@ -6,3 +6,7 @@ RUN apt-get update \
     && pip install fuel-plugin-builder \
     && apt-get clean \
     && rm -rf /var/lib/apt
+
+COPY ./fpb_build.sh /
+ENTRYPOINT ["/fpb_build.sh"]
+CMD ["--help"]
